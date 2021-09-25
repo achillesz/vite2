@@ -1,0 +1,9 @@
+@import url('@/b.css');
+:root {
+    --main-bg-color: brown;
+}
+
+body {
+    @console.error hello root;
+    background-color: var(--main-bg-color);
+}
